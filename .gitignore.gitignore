@@ -1,0 +1,13 @@
+bin/
+obj/
+/First/bin/Debug
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+build/
+.idea/
+.vs/
+*.sln.DotSettings.user
+/First/bin/Debug/
+C:\Users\user\source\repos\First\First\bin
+/First/bin/Debug/netcoreapp3.1/System.Web.WebPages.Razor.dll
