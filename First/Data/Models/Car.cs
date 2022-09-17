@@ -2,24 +2,25 @@
 {
     public class Car
     {
-        public int Id { get; set; }
 
-        public string name { get; set; }
+        public int id { set; get; }
 
-        public string shortDesc { get; set; }
+        public string name { set; get; }
 
-        public string lognDesc { get; set; }
+        public string shortDesc { set; get; }
 
-        public string img { get; set; }
+        public string longDesc { set; get; }
 
-        public ushort price { get; set; }
+        public string img { set; get; }
 
-        public bool isFavourite { get; set; }
+        public ushort price { set; get; }
 
-        public bool available { get; set; }
+        public bool isFavourite { set; get; }
 
-        public int categoryID { get; set; }
+        public bool available { set; get; }
 
-        public virtual Category Category { get; set; }
+        public int categoryID { set; get; }
+         
+        public virtual Category Category { set; get; }
     }
 }

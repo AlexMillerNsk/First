@@ -1,4 +1,5 @@
 ﻿using First.data.Interfaces;
+using First.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
 namespace First.Controllers
@@ -15,9 +16,12 @@ namespace First.Controllers
         }
         public ViewResult List() {
 
-            var cars = _allCars.Cars;
-            return View();
+            CarListViewModel obj = new CarListViewModel();
+            ViewBag.Title = "Cars CArsCCCARS";
+            obj.allCars = _allCars.Cars;
+            obj.currCategory = "AvtomoBILLzz";
+            return View(obj);
         
-        }
+        } 
     }
 }

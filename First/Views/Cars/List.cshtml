@@ -1,28 +1,13 @@
-﻿@using First.data.Models
-@model IEnumerable<Car>
-@{
-    Layout = null;
+﻿
+<h2>Все автомобили</h2>
+<h3>@Model.currCategory</h3>
+<div class="row mt-5 mb-2">
+        @{
+             foreach(Car car in Model.allCars) {
+                @Html.Partial("AllCars", car)
+             }
+             
 
-}
- <!DOCTYPE html>
-<html lang="">
-<head>
-    <meta name = "viewport" content = "width=device-width"/>
-    <title>List</title>
-</head>
-<body>
-    <h2>Все автомобили</h2>
-    @{
-        foreach(var car in Model) { 
-            <div>
-                 <h2>Модель: @car.name</h2>
-                 <p>Цена: @car.price.ToString("c")</p>
-
-            </div>
-
-
-        }
-
-    }
-</body>
-</html>
+         }
+                
+</div>

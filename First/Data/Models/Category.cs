@@ -4,9 +4,9 @@ namespace First.data.Models
 {
     public class Category
     {
-        public int Id { get; set; }
-        public string categoryName { get; set; }
-        public string desc { get; set; }
-        public List<Car> cars { get; set; } 
+        public int id { set; get; }
+        public string categoryName { set; get; }
+        public string desc { set; get; }
+        public List<Car> cars { set; get; } 
     }
 }

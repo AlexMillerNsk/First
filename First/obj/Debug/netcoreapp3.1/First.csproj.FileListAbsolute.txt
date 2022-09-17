@@ -8,13 +8,6 @@ C:\Users\user\source\repos\First\First\bin\Debug\netcoreapp3.1\First.dll
 C:\Users\user\source\repos\First\First\bin\Debug\netcoreapp3.1\First.pdb
 C:\Users\user\source\repos\First\First\bin\Debug\netcoreapp3.1\First.Views.dll
 C:\Users\user\source\repos\First\First\bin\Debug\netcoreapp3.1\First.Views.pdb
-C:\Users\user\source\repos\First\First\bin\Debug\netcoreapp3.1\System.Web.Mvc.dll
-C:\Users\user\source\repos\First\First\bin\Debug\netcoreapp3.1\System.Web.Razor.dll
-C:\Users\user\source\repos\First\First\bin\Debug\netcoreapp3.1\System.Web.Helpers.dll
-C:\Users\user\source\repos\First\First\bin\Debug\netcoreapp3.1\System.Web.WebPages.Deployment.dll
-C:\Users\user\source\repos\First\First\bin\Debug\netcoreapp3.1\System.Web.WebPages.Razor.dll
-C:\Users\user\source\repos\First\First\bin\Debug\netcoreapp3.1\System.Web.WebPages.dll
-C:\Users\user\source\repos\First\First\bin\Debug\netcoreapp3.1\Microsoft.Web.Infrastructure.dll
 C:\Users\user\source\repos\First\First\obj\Debug\netcoreapp3.1\First.csproj.AssemblyReference.cache
 C:\Users\user\source\repos\First\First\obj\Debug\netcoreapp3.1\First.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\user\source\repos\First\First\obj\Debug\netcoreapp3.1\First.AssemblyInfoInputs.cache
@@ -42,3 +35,9 @@ C:\Users\user\source\repos\First\First\obj\Debug\netcoreapp3.1\First.csproj.Copy
 C:\Users\user\source\repos\First\First\obj\Debug\netcoreapp3.1\First.dll
 C:\Users\user\source\repos\First\First\obj\Debug\netcoreapp3.1\First.pdb
 C:\Users\user\source\repos\First\First\obj\Debug\netcoreapp3.1\First.genruntimeconfig.cache
+C:\Users\user\source\repos\First\First\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\user\source\repos\First\First\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\user\source\repos\First\First\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\user\source\repos\First\First\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\user\source\repos\First\First\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\user\source\repos\First\First\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs

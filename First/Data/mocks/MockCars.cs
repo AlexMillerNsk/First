@@ -17,13 +17,24 @@ namespace First.data.mocks
 
                     new Car { 
                         name = "Tesla", 
-                        shortDesc = "", 
-                        lognDesc = "", 
-                        img = "", 
+                        shortDesc = "cool", 
+                        longDesc = "", 
+                        img = "/img/mclaren.jpeg", 
                         price = 45000, 
                         isFavourite = true, 
                         available = true, 
-                        Category = _categoryCars.AllCategories.First()}
+                        Category = _categoryCars.AllCategories.First()
+                    },
+                    new Car {
+                        name = "Ford",
+                        shortDesc = "nice",
+                        longDesc = "",
+                        img = "/img/mercedes_benz.jpg",
+                        price = 5000,
+                        isFavourite = false,
+                        available = true,
+                        Category = _categoryCars.AllCategories.Last()
+                    },
                 };
             }
         }
